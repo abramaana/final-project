@@ -20,11 +20,11 @@ li a:hover {
 }
 .logo {
 	height: 120px;
-	width: 120px;
 }
 .intro {
-	background-image: url('assets\images\photo1.png.jpg');
+	background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgLiA5J3eu3aOyOEw9sdYtOO4NMHNaKyeO9KNkedn8t4pg4UDKRm8VZiGAIAZQ5rBTRM1qVXzx1vxYVXNsy18MzyAIv3zF3gFbYHQwVlTMp2ujMvlXpKLwRKe3jvfB8sFiHo-Sh46nFg32unu8c6noRbaLeZVjSAdVegshUS3Fu6JkJ4ACs0W-wtIldA/s1280/YouTube%20thumbnails-15.png');
 	height: 500px;
+	border-radius: 30px;
 }
 .pintro {
 	width: 250px;
@@ -32,4 +32,27 @@ li a:hover {
 	line-height: 43px;
 	margin: 50px;
 	margin-left: 80px;
+	color:white;
+}
+.examples {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+}
+.components {
+	height: 300px;
+	display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-color: lightpink;
+    border-style: solid;
+    border-width: 2px;
+}
+.img {
+	height: 250px;
+}
+.p1{
+	font-weight: bold;
+	padding-left: 15px;
 }
