@@ -1,0 +1,35 @@
+.container {
+	height: 150px;
+	background-color: lightpink;
+	border-radius: 50px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ul {
+	width: 500px;
+	display:flex;
+	justify-content: space-between;
+}
+li a {
+	color: hotpink;
+	font-size: 25px;
+}
+li a:hover {
+	color: deeppink;
+}
+.logo {
+	height: 120px;
+	width: 120px;
+}
+.intro {
+	background-image: url('assets\images\photo1.png.jpg');
+	height: 500px;
+}
+.pintro {
+	width: 250px;
+	font-size: 30px;
+	line-height: 43px;
+	margin: 50px;
+	margin-left: 80px;
+}
