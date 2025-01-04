@@ -1,3 +1,4 @@
+
 .container {
 	height: 150px;
 	background-color: lightpink;
@@ -39,6 +40,7 @@ li a:hover {
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 40px;
+	width: 100%;
 }
 .components {
 	height: 300px;
@@ -55,4 +57,64 @@ li a:hover {
 .p1{
 	font-weight: bold;
 	padding-left: 15px;
+}
+.section3 {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+.services{
+	background-color: rosybrown;
+	border-radius: 20px;
+	height: 30px;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 25px;
+}
+.services a{
+	color: brown;
+}
+.AboutUs {
+	display: flex;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: center;
+}
+.textAB {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 50%;
+	height: 300px;
+	padding: 40px;
+	background-color: #fccaed;
+	border-bottom-left-radius: 40px;
+	border-top-left-radius: 40px;
+}
+.texsAB h1{
+	margin: 40px;
+}
+.photoAB {
+	width: 50%;
+	height: 300px;
+	background-image: url('../assets/images/imageAB.png');
+}
+.about{
+	background-color: #d19fbd;
+	border-radius: 20px;
+	height: 30px;
+	width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 25px;
+	position: absolute;
+	top:1350px;
+	left: 50px;
+}
+.about a{
+	color: brown;
 }
