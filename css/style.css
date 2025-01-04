@@ -125,7 +125,7 @@ li a:hover {
 	justify-content: space-around;
 	height: 200px;
 	margin: 30px;
-	background-color: lightpink;
+	background-color: #f0c5d1;
 	border-radius: 40px;
 	padding: 20px;
 }
@@ -143,4 +143,30 @@ li a:hover {
 }
 .News a{
 	color: brown;
+}
+.registration {
+	height: 100px;
+	background-color:#f0c5d1;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 0 40px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-color: #c9a3ae;
+	border-bottom-width: 5px;
+}
+.registration p{
+	color: brown;
+}
+.registration form{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.registration form input{
+	height:50px;
+	border-radius: 20px;
+	border-color: #c9a3ae;
+	background-color: #f0dae0;
 }
