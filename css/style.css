@@ -5,23 +5,14 @@
 	height: 150px;
 	background-color: lightpink;
 	border-radius: 50px;
-	display:-webkit-box;
-	display:-ms-flexbox;
 	display:flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	justify-content: space-around;
+	align-items: center;
 }
 ul {
 	width: 500px;
-	display:-webkit-box;
-	display:-ms-flexbox;
 	display:flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	justify-content: space-between;
 }
 li a {
 	color: hotpink;
@@ -37,12 +28,8 @@ li a:hover {
 	background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgLiA5J3eu3aOyOEw9sdYtOO4NMHNaKyeO9KNkedn8t4pg4UDKRm8VZiGAIAZQ5rBTRM1qVXzx1vxYVXNsy18MzyAIv3zF3gFbYHQwVlTMp2ujMvlXpKLwRKe3jvfB8sFiHo-Sh46nFg32unu8c6noRbaLeZVjSAdVegshUS3Fu6JkJ4ACs0W-wtIldA/s1280/YouTube%20thumbnails-15.png');
 	height: 500px;
 	border-radius: 30px;
-	display:-webkit-box;
-	display:-ms-flexbox;
 	display:flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	align-items: center;
 }
 .pintro {
 	width: 300px;
@@ -53,26 +40,25 @@ li a:hover {
 	color: rosybrown;
 }
 .examples {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	justify-content: space-around;
+	align-items: center;
 	margin-top: 40px;
 	width: 100%;
 }
 .components {
 	height: 300px;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
+    border-radius: 20px;
+    border-color: lightpink;
+    border-style: solid;
+    border-width: 2px;
+}
+.components1 {
+	height: 300px;
+	display: flex;
+    flex-direction: column;
     border-radius: 20px;
     border-color: lightpink;
     border-style: solid;
@@ -86,62 +72,34 @@ li a:hover {
 	padding-left: 15px;
 }
 .section3 {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+    flex-direction: column;
+	align-items: center;
 }
 .services{
 	background-color: rosybrown;
 	border-radius: 20px;
 	height: 30px;
 	width: 100px;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	align-items: center;
+	justify-content: center;
 	margin: 25px;
 }
 .services a{
 	color: brown;
 }
 .AboutUs {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	border-radius: 50px;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 .textAB {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 	width: 50%;
 	height: 300px;
 	padding: 30px;
@@ -162,33 +120,19 @@ li a:hover {
 	border-radius: 20px;
 	height: 30px;
 	width: 120px;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	align-items: center;
+	justify-content: center;
 	margin: 25px;
 }
 .about a{
 	color: brown;
 }
 .news {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 	height: 200px;
 	margin: 30px;
 	background-color: #f0c5d1;
@@ -200,18 +144,10 @@ li a:hover {
 	border-radius: 20px;
 	height: 30px;
 	width: 100px;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	align-items: center;
+	justify-content: center;
 	margin: 25px;
-	position: absolute;
-	top: 1540px;
 }
 .News a{
 	color: brown;
@@ -219,15 +155,9 @@ li a:hover {
 .registration {
 	height: 170px;
 	background-color:#f0c5d1;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	justify-content: space-around;
+	flex-direction: column;
 	padding: 0 40px;
 	height: 100px;
     border-bottom-style: solid;
@@ -240,18 +170,12 @@ li a:hover {
 	color: brown;
 }
 .registration form{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	align-items: center;
+	flex-direction: row;
 }
 .registration form input{
+	min-width: 100px;
 	height:50px;
 	border-radius: 20px;
 	border-color: #c9a3ae;
@@ -261,35 +185,19 @@ li a:hover {
 	height: 400px;
 	wodth: 100%;
 	background-color:#f0c5d1;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	justify-content: space-around;
+	flex-direction: column;
 	padding: 0 40px;
 }
 .section1{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+	justify-content: space-around;
 }
 .section11{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	justify-content: space-between;
+	flex-direction: column;
 	height: 250px;
 	padding: 20px;
 }
@@ -307,24 +215,16 @@ li a:hover {
 	font-size: 23px;
 }
 .section11 div{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+	justify-content: space-around;
 }
 .section11 div img {
 	height: 25px;
 }
 .section2 {
-	display:-webkit-box;
-	display:-ms-flexbox;
 	display:flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	justify-content: space-around;
+	align-items: center;
     border-top-style: solid;
 	border-top-color: #c9a3ae;
 	border-top-width: 5px;
@@ -335,6 +235,86 @@ li a:hover {
 	color: saddlebrown;
 	font-size: 22px;
 }
+
+@media screen and (max-width: 660px){
+    .AboutUs {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    .photoAB {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .textAB {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background-color: #f09eb5;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .textAB h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .textAB p {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    .about {
+        margin: 20px auto;
+        height: 40px;
+        width: 140px;
+    }
+    .about a {
+        font-size: 0.9em;
+    }
+	.section1{
+		flex-direction: column;
+	}
+	.section11{
+		flex-direction: row;
+		height: auto;
+		width: auto;
+	}
+	.section11 h1{
+		font-size: 17px;
+	}
+	.section11 a{
+		font-size: 10px;
+	}
+	.section11 p{
+		font-size: 10px;
+	}
+	ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+	}
+	.components1{
+		display: none;
+	}
+	.components{
+		height: 200px;
+	}
+	.img{
+		height:150px;
+	}
+	.news {
+		height: 250px;
+	}
+}
+
 /* about page*/
 
 .intro1 {
@@ -372,9 +352,36 @@ li a:hover {
     font-family: "Dancing Script", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;/*
-    font-family: "Playwrite IS", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;*/
+    font-style: normal;
+}
+.team {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 400px;
+}
+.team h1{
+	font-size: 30px;
+	color: dimgray;
+}
+.people {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.people div{
+	height: 250px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.people div img{
+	height: 200px;
+	border-radius: 100px;
+}
+.people div p{
+	font-size: 20px;
+	color: dimgray;
 }
