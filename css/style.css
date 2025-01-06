@@ -242,7 +242,7 @@ li a:hover {
 	color: saddlebrown;
 	font-size: 22px;
 }
-.section3{
+.section3l{
 	height:100px;
 	width: 100%;
     border-top-style: solid;
@@ -252,7 +252,7 @@ li a:hover {
 	justify-content: space-around;
 	align-items: center;
 }
-.section3 a img{
+.section3l a img{
 	height: 65px;
 	border-radius: 5px;
 }
