@@ -189,7 +189,7 @@ li a:hover {
 	background-color: #f0dae0;
 }
 .info {
-	height: 400px;
+	height: 500px;
 	wodth: 100%;
 	background-color:#f0c5d1;
 	display: flex;
@@ -241,6 +241,20 @@ li a:hover {
 .section2 p{
 	color: saddlebrown;
 	font-size: 22px;
+}
+.section3{
+	height:100px;
+	width: 100%;
+    border-top-style: solid;
+	border-top-color: #c9a3ae;
+	border-top-width: 5px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.section3 a img{
+	height: 65px;
+	border-radius: 5px;
 }
 
 @media screen and (max-width: 660px){
@@ -391,6 +405,31 @@ li a:hover {
 .people div p{
 	font-size: 20px;
 	color: dimgray;
+}
+@media screen and (max-width: 735px){
+	.history p{
+		font-size: 15px;
+	}
+	.history h1{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.people div img{
+		height: 100px;
+		border-radius: 50px;
+	}
+	.people div{
+		height: 150px;
+	}
+	.people div p{
+		font-size: 15px;
+	}
+	.team{
+		height: 200px;
+	}
+	.team h1{
+		font-size: 20px;
+	}
 }
 
 /* services page*/
