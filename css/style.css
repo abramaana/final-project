@@ -489,4 +489,31 @@ li a:hover {
 .choices form select{
 	font-weight: bold;
 }
-@media screen and (max-width: 700px){}
+@media screen and (max-width: 700px){
+	.products21{
+		height: 200px;
+		width:150px;
+	}
+	.products21 img{
+		height:150px;
+	}
+	.products21 p {
+		height: 250px;
+	}
+	.products {
+		flex-direction: column;
+	}
+	.category{
+		flex-direction: row;
+		height: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	.category h1{
+		font-size: 20px;
+	}
+	.category p{
+		font-size: 15px;
+	}
+}
