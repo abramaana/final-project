@@ -145,6 +145,7 @@
 	background-color: #f0c5d1;
 	border-radius: 40px;
 	padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .News{
 	background-color: rosybrown;
@@ -190,7 +191,7 @@
 }
 .info {
 	height: 500px;
-	wodth: 100%;
+	width: 100%;
 	background-color:#f0c5d1;
 	display: flex;
 	justify-content: space-around;
@@ -339,7 +340,7 @@
 /* about page*/
 
 .intro1 {
-	background-image: url('https://static.wixstatic.com/media/cc9421_85d2c634ed7f49cdb664c45d6c3d9c11~mv2.jpg/v1/fill/w_560,h_324,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tools%20%26%20Materials_edited.jpg')	height: 500px;
+	background-image: url('https://static.wixstatic.com/media/cc9421_85d2c634ed7f49cdb664c45d6c3d9c11~mv2.jpg/v1/fill/w_560,h_324,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tools%20%26%20Materials_edited.jpg');
 	background-size: cover;
 	background-position: center;
 	border-radius: 30px;
@@ -363,16 +364,12 @@
 	font-size: 22px;
 	color: saddlebrown;
     font-family: "Dancing Script", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 .history h1{
 	font-size: 30px;
 	color: saddlebrown;
     font-family: "Dancing Script", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 .team {
@@ -546,7 +543,6 @@
 }
 .exmp{
 	display: flex;
-	align-items: space-around;
 	justify-content: space-evenly;
 }
 .exmp2 {
@@ -555,7 +551,6 @@
 	padding-top: 20px;
 	display: flex;
 	flex-direction: column;
-	align-items: space-around;
 	justify-content: space-evenly;
 }
 .exmp2 ul{
@@ -639,6 +634,7 @@
 	border-radius: 30px;
 	background-color: lightgray;
 	height: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .wow h1{
 	font-size: 30px;
@@ -670,6 +666,7 @@
 	height: 50px;
 	background-color: #f0c5d1;
 	border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 550px){
@@ -685,4 +682,142 @@
 	.wow h1{
 		font-size: 20px;
 	}
+}
+
+/* Contact Page */
+
+.historyC {
+	height: 300px;
+	background-color: #c9a3ae;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 40px;
+	width: 68%;
+	margin: 30px auto;
+	padding: 70px 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.historyC p{
+	width: 60%;
+	font-size: 22px;
+	color: saddlebrown;
+    font-family: "Dancing Script", serif;
+    font-style: normal;
+}
+.historyC h1{
+	font-size: 30px;
+	color: saddlebrown;
+    font-family: "Dancing Script", serif;
+    font-style: normal;
+}
+.contact-info {
+    text-align: center;
+    margin: 30px auto;
+    background-color: #f9ecef;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-info h2 {
+    font-size: 24px;
+    color: deeppink;
+    margin-bottom: 15px;
+}
+.contact-info ul li {
+    font-size: 18px;
+    color: saddlebrown;
+    margin: 5px 0;
+}
+.contact-info p {
+    font-size: 16px;
+    color: saddlebrown;
+    margin-top: 15px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: #f0c5d1;
+    border-radius: 15px; 
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form div {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.contact-form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: saddlebrown;
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: saddlebrown;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c9a3ae;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: saddlebrown;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c9a3ae;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #c9a3ae;
+    border: none;
+    border-radius: 10px;
+}
+.oh{
+	height:1400px;
+}
+
+@media screen and (max-width: 660px) {
+    .contact-info{
+        width: 95%;
+    }
+    .contact-form {
+        width: 95%;
+    }
+    .contact-info h2 {
+        font-size: 20px;
+    }
+    .contact-info ul li{
+        font-size: 15px;
+    }
+    .contact-info p {
+        font-size: 14px;
+    }
+    .contact-form label {
+        font-size: 14px;
+    }
+    .contact-form button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
 }
